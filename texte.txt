@@ -1,0 +1,21 @@
+Parfait, avec un compte GitHub on va utiliser **GitHub Pages** : gratuit, permanent, et ton tableau gardera son icône. D'abord je te prépare le fichier au bon nom (`index.html`) pour que tu n'aies qu'à le déposer.
+
+Le fichier `index.html` est prêt (identique au tableau, avec l'icône). Télécharge-le sur ton iPhone — c'est lui que tu vas déposer.
+
+Voici la marche à suivre, tout depuis **Safari** :
+
+1. Va sur **github.com** dans Safari et connecte-toi.
+
+2. Crée un dépôt : bouton **+** (en haut à droite) → **New repository**. Donne-lui un nom court, par exemple `air-maximus`. Choisis **Public** (obligatoire : Pages est gratuit uniquement sur un dépôt public). Puis **Create repository**.
+
+3. Dans le dépôt : **Add file** → **Upload files** → sélectionne le fichier `index.html` (depuis Fichiers) → en bas, **Commit changes**.
+
+4. Ouvre l'onglet **Settings** du dépôt → menu **Pages** → sous *Source*, choisis **Deploy from a branch** → *Branch* : **main**, dossier **/(root)** → **Save**. *(Si le menu est peu lisible sur mobile, dans Safari touche « aA » en haut → « Afficher la version pour ordinateur ».)*
+
+5. Attends une minute, puis rafraîchis : GitHub affiche en haut de la page Pages ton adresse, du type **`https://TONPSEUDO.github.io/air-maximus/`**
+
+6. C'est cette adresse que tu mets dans Safari. Là, les vidéos fonctionnent — et tu fais **Partager → Sur l'écran d'accueil** (l'étape 3 qu'on a vue).
+
+Deux points honnêtes : le dépôt est **public**, mais le fichier ne contient **aucune donnée perso** (ta to-do reste stockée sur ton téléphone, pas dans le fichier) — juste l'interface et des actus publiques. Et je ne peux pas construire l'adresse à l'avance : elle dépend de ton pseudo et du nom du dépôt.
+
+Dès que tu as fait l'étape 2, **donne-moi ton pseudo GitHub et le nom exact du dépôt**, et je t'écris l'adresse complète à coller dans Safari.
