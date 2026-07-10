@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Air Maximus — Tableau de bord</title>
+  <link rel="apple-touch-icon" href="data:image/png;base64,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" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,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" />
+  <meta name="apple-mobile-web-app-title" content="Air Maximus" />
+  <meta name="theme-color" content="#0b1220" />
+<style>
+  :root{--bg:#0b1220;--panel:#131c2e;--panel-2:#1a2540;--line:#25314d;--txt:#e8eef7;--muted:#93a4c2;--sky:#4f9cff;--amber:#ffb02e;--green:#35c07f;--red:#ff6b6b;}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{margin:0;padding:0;}
+  body{background:linear-gradient(180deg,#0b1220 0%,#0a0f1a 100%);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 0 44px;line-height:1.5;-webkit-font-smoothing:antialiased;}
+  header{position:sticky;top:0;z-index:20;background:rgba(11,18,32,.9);backdrop-filter:saturate(160%) blur(12px);border-bottom:1px solid var(--line);padding:calc(env(safe-area-inset-top) + 14px) 18px 12px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand h1{font-size:19px;margin:0;letter-spacing:.3px;font-weight:700;}
+  .brand .plane{font-size:22px;}
+  .date{color:var(--muted);font-size:13px;margin-top:3px;text-transform:capitalize;}
+  .upd{color:#5f7091;font-size:11.5px;margin-top:1px;}
+  .wrap{max-width:680px;margin:0 auto;padding:16px 14px 0;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:8px 16px 6px;margin-bottom:14px;}
+  .card h2{font-size:16px;margin:8px 0 2px;display:flex;align-items:center;gap:9px;font-weight:650;}
+  .card h2 .ic{font-size:19px;}
+  .sub{color:var(--muted);font-size:12px;margin:0 0 6px;}
+  .item{border-top:1px solid #1f2b45;}
+  .item:first-of-type{border-top:none;}
+  .head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 2px;cursor:pointer;}
+  .head .t{font-weight:600;font-size:14.5px;color:var(--txt);}
+  .tag{display:inline-block;font-size:10.5px;padding:1px 7px;border-radius:20px;margin-left:6px;vertical-align:1px;background:#20304f;color:#9fc0ff;}
+  .chev{color:var(--muted);font-size:12px;flex:0 0 auto;transition:transform .22s;}
+  .item.open .chev{transform:rotate(180deg);}
+  .detail{max-height:0;overflow:hidden;transition:max-height .3s ease;}
+  .item.open .detail{max-height:700px;}
+  .detail .inner{padding:0 2px 15px;}
+  .detail p{margin:0;color:#cdd8ec;font-size:13.5px;line-height:1.6;}
+  .detail .s{color:var(--muted);font-size:11.5px;margin-top:9px;letter-spacing:.2px;}
+  .item.static{padding:12px 2px;}
+  .item.static .t2{font-weight:600;font-size:14.5px;color:var(--txt);line-height:1.35;}
+  .item.static .si{color:var(--muted);font-size:11.5px;margin-top:4px;letter-spacing:.2px;}
+  /* Vidéos (ouvrent dans YouTube : plein écran + HD) */
+  .vnote{color:#8fa3c4;font-size:11.5px;background:#101a30;border:1px solid var(--line);border-radius:10px;padding:9px 11px;margin:2px 0 12px;line-height:1.5;}
+  .vgrid{display:flex;flex-direction:column;gap:15px;padding:2px 0 10px;}
+  a.vid{display:block;text-decoration:none;color:inherit;cursor:pointer;}
+  .thumb{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#0e1730;border:1px solid var(--line);}
+  .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
+  .thumb.noimg{background:linear-gradient(135deg,#17264a,#0e1730);}
+  .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:rgba(230,40,40,.92);display:flex;align-items:center;justify-content:center;color:#fff;font-size:23px;padding-left:4px;z-index:2;box-shadow:0 4px 14px rgba(0,0,0,.35);}
+  .vtag{position:absolute;left:8px;top:8px;font-size:10.5px;padding:2px 8px;border-radius:20px;background:rgba(10,15,26,.82);color:#9fc0ff;z-index:2;}
+  .vopen{position:absolute;right:8px;bottom:8px;font-size:10.5px;padding:2px 8px;border-radius:20px;background:rgba(10,15,26,.82);color:#cfe0ff;z-index:2;}
+  .vtitle{font-size:13.5px;color:var(--txt);margin-top:8px;font-weight:600;line-height:1.35;}
+  /* To-Do */
+  .todo-add{display:flex;gap:8px;margin:8px 0 10px;}
+  .todo-add input{flex:1;min-height:44px;padding:10px 12px;border-radius:11px;background:var(--panel-2);border:1px solid var(--line);color:var(--txt);font-size:15px;font-family:inherit;}
+  .todo-add input::placeholder{color:#6f80a0;}
+  .todo-add button{min-height:44px;padding:0 16px;border-radius:11px;background:var(--sky);color:#062038;border:none;font-size:22px;font-weight:700;cursor:pointer;}
+  ul.todo{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-direction:column;gap:8px;}
+  ul.todo li{display:flex;align-items:center;gap:11px;padding:11px 12px;background:var(--panel-2);border:1px solid var(--line);border-radius:11px;}
+  ul.todo li .box{width:22px;height:22px;border-radius:6px;border:2px solid var(--muted);flex:0 0 auto;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:14px;}
+  ul.todo li.done .box{background:var(--green);border-color:var(--green);color:#062a1a;}
+  ul.todo li .txt{flex:1;font-size:15px;}
+  ul.todo li.done .txt{color:var(--muted);text-decoration:line-through;}
+  ul.todo li .del{color:#6f80a0;cursor:pointer;font-size:18px;padding:4px;}
+  .empty{color:var(--muted);font-size:13px;}
+  footer{max-width:680px;margin:6px auto 0;padding:6px 16px;color:#5f7091;font-size:11.5px;text-align:center;line-height:1.5;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="plane">🛫</span><h1>Air Maximus</h1></div>
+    <div class="date" id="date"></div>
+    <div class="upd">Mise à jour automatique chaque matin — appuie sur un titre ou une vidéo</div>
+  </header>
+  <div class="wrap" id="app"></div>
+  <footer>Mis à jour automatiquement chaque matin via GitHub Actions. Les vidéos ouvrent YouTube (plein écran, HD).<br>Astuce iPhone : <b>Partager → Sur l'écran d'accueil</b> pour l'épingler comme une app.</footer>
+
+<script>
+/* ---------- Données (tout en français) ---------- */
+const SECTIONS = /*__SECTIONS__*/[];
+
+/* ---------- Stockage persistant (sinon mémoire de session) ---------- */
+const _mem = {};
+const store = {
+  async get(k){ try{ if(window.storage){ const r = await window.storage.get(k); return r ? r.value : null; } }catch(e){} return (k in _mem)?_mem[k]:null; },
+  async set(k,v){ try{ if(window.storage){ await window.storage.set(k, v, false); return; } }catch(e){} _mem[k]=v; }
+};
+
+function esc(s){ return String(s).replace(/[&<>]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; }); }
+function imgFallback(img){ var t = img.closest('.thumb'); if(t) t.classList.add('noimg'); img.style.display='none'; }
+
+document.getElementById('date').textContent =
+  new Date().toLocaleDateString('fr-FR', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+
+/* ---------- Rendu ---------- */
+const app = document.getElementById('app');
+
+/* Carte To-Do */
+const todoCard = document.createElement('section');
+todoCard.className = 'card';
+todoCard.innerHTML =
+  '<h2><span class="ic">✅</span>Ma To-Do</h2>' +
+  '<div class="todo-add"><input id="todo-input" type="text" placeholder="Ajouter une tâche…" enterkeyhint="done" /><button id="todo-btn" aria-label="Ajouter">+</button></div>' +
+  '<ul class="todo" id="todo-list"></ul>';
+app.appendChild(todoCard);
+
+/* Cartes de contenu */
+for (const sec of SECTIONS){
+  const card = document.createElement('section');
+  card.className = 'card';
+  let html = '<h2><span class="ic">'+sec.icon+'</span>'+esc(sec.title)+'</h2>';
+  if (sec.sub) html += '<div class="sub">'+esc(sec.sub)+'</div>';
+
+  if (sec.type === 'video'){
+    html += '<div class="vnote">📱 Sur iPhone, appuie sur une vidéo : elle s\'ouvre dans l\'app YouTube en plein écran. Si rien ne se passe à l\'intérieur de l\'app Claude, les liens sont aussi listés dans la conversation.</div>';
+    html += '<div class="vgrid">';
+    for (const v of sec.items){
+      const url = 'https://www.youtube.com/watch?v=' + v.id;
+      const thumb = 'https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg';
+      html +=
+        '<a class="vid" href="'+url+'" target="_blank" rel="noopener noreferrer">' +
+          '<div class="thumb">' +
+            '<img src="'+thumb+'" alt="" loading="lazy" onerror="imgFallback(this)">' +
+            '<span class="vtag">'+esc(v.topic)+'</span>' +
+            '<div class="play">▶</div>' +
+            '<span class="vopen">YouTube ↗</span>' +
+          '</div>' +
+          '<div class="vtitle">'+esc(v.title)+'</div>' +
+        '</a>';
+    }
+    html += '</div>';
+  } else {
+    for (const it of sec.items){
+      if (it.b && String(it.b).trim()){
+        const tag = it.tag ? '<span class="tag">'+esc(it.tag)+'</span>' : '';
+        html +=
+          '<div class="item">' +
+            '<div class="head"><div class="t">'+esc(it.t)+tag+'</div><span class="chev">⌄</span></div>' +
+            '<div class="detail"><div class="inner"><p>'+esc(it.b)+'</p><div class="s">'+esc(it.s||'')+'</div></div></div>' +
+          '</div>';
+      } else {
+        html +=
+          '<div class="item static">' +
+            '<div class="t2">'+esc(it.t)+'</div>' +
+            (it.s ? '<div class="si">'+esc(it.s)+'</div>' : '') +
+          '</div>';
+      }
+    }
+  }
+  card.innerHTML = html;
+  app.appendChild(card);
+}
+
+/* Ouverture des articles (tout reste dans la page). Les vidéos sont des liens. */
+app.addEventListener('click', function(e){
+  const head = e.target.closest('.head');
+  if (head){ head.parentElement.classList.toggle('open'); }
+});
+
+/* ---------- To-Do ---------- */
+let todos = [];
+(async function initTodo(){
+  const raw = await store.get('todos');
+  try{ todos = raw ? JSON.parse(raw) : []; }catch(e){ todos = []; }
+  drawTodos();
+  const input = document.getElementById('todo-input');
+  const add = function(){ const v = input.value.trim(); if(!v) return; todos.unshift({id:Date.now(), t:v, done:false}); input.value=''; saveTodos(); drawTodos(); };
+  document.getElementById('todo-btn').addEventListener('click', add);
+  input.addEventListener('keydown', function(e){ if(e.key==='Enter') add(); });
+})();
+function saveTodos(){ store.set('todos', JSON.stringify(todos)); }
+function drawTodos(){
+  const ul = document.getElementById('todo-list');
+  if(!todos.length){ ul.innerHTML = '<li class="empty" style="background:none;border:none;padding:2px 0">Rien pour l\'instant. Ajoute ta première tâche 👆</li>'; return; }
+  ul.innerHTML = todos.map(function(t){ return '<li class="'+(t.done?'done':'')+'" data-id="'+t.id+'"><span class="box">'+(t.done?'✓':'')+'</span><span class="txt">'+esc(t.t)+'</span><span class="del">✕</span></li>'; }).join('');
+  ul.querySelectorAll('li[data-id]').forEach(function(li){
+    const id = Number(li.dataset.id);
+    li.querySelector('.box').addEventListener('click', function(){ const x=todos.find(function(o){return o.id===id;}); x.done=!x.done; saveTodos(); drawTodos(); });
+    li.querySelector('.del').addEventListener('click', function(){ todos=todos.filter(function(o){return o.id!==id;}); saveTodos(); drawTodos(); });
+  });
+}
+</script>
+</body>
+</html>
